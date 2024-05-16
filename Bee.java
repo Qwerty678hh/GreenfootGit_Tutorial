@@ -20,6 +20,7 @@ public class Bee extends Actor
         move(5);
         if (isAtEdge()) {
             turn(45);
+            // Deleted everything
         }
     }
 }
